@@ -1,0 +1,14 @@
+.post{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.postTime{
+  font-size: 0.8rem;
+}
+
+.postImage{
+  /* background-color: green; */
+  padding: 1rem 1rem;
+  max-width: 100%;
+  margin: auto;
+}

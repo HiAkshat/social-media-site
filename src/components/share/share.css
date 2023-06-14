@@ -1,0 +1,12 @@
+.share{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.share .shareIcons{
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.share .shareText{
+  padding-left: 7px;
+}

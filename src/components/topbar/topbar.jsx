@@ -6,7 +6,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 
 export default function Topbar() {
   return (
-    <div className='flex sticky bg-blue-500 items-center p-2 w-full'>
+    <div className='flex sticky bg-blue-500 items-center p-2 w-full shadow-md'>
       <div className="topbarLeft w-3/12">
         <span className='text-white text-2xl font-bold m-6 '>Aksocial</span>
       </div>

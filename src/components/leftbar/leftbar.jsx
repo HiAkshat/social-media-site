@@ -44,7 +44,7 @@ export default function LeftBar() {
         </ul>
       </div>
       <button className='ml-6 mt-2 px-4 py-2 bg-slate-100 rounded-xl'>Show More</button>
-      <hr className='border-gray-800 my-6 ml-6'/>
+      <hr className='border-gray-300 my-6 m-6'/>
 
       <div>
         <div className='flex items-center pl-6 pb-4'>
@@ -71,7 +71,23 @@ export default function LeftBar() {
           <img src={require("./1.jpg")} alt="" className='w-12 rounded-full'/>
           <span>Emma Watson</span>
         </div>
-        
+                
+        <div className='flex items-center pl-6 pb-4'>
+          <img src={require("./1.jpg")} alt="" className='w-12 rounded-full'/>
+          <span>Emma Watson</span>
+        </div>        
+        <div className='flex items-center pl-6 pb-4'>
+          <img src={require("./1.jpg")} alt="" className='w-12 rounded-full'/>
+          <span>Emma Watson</span>
+        </div>        
+        <div className='flex items-center pl-6 pb-4'>
+          <img src={require("./1.jpg")} alt="" className='w-12 rounded-full'/>
+          <span>Emma Watson</span>
+        </div>        
+        <div className='flex items-center pl-6 pb-4'>
+          <img src={require("./1.jpg")} alt="" className='w-12 rounded-full'/>
+          <span>Emma Watson</span>
+        </div>
         
       </div>
     </div>
