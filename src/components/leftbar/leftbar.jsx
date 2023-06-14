@@ -10,7 +10,7 @@ import "./leftbar.css"
 
 export default function LeftBar() {
   return (
-    <div className="LeftBar w-3/12 h-[calc(100vh-64px) pt-2 cursor-pointer overflow-y-scroll">
+    <div className="LeftBar h-[calc(100vh-64px)] overflow-y-scroll w-3/12 pt-2">
       <div>
         <ul>
           <li>

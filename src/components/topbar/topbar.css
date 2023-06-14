@@ -1,0 +1,14 @@
+.badge{
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  background-color: rgb(255, 75, 75);
+
+  position: relative;
+  right: 10px;
+  bottom: 10px;  
+  font-size: 12px;
+
+  justify-content: center;
+
+}

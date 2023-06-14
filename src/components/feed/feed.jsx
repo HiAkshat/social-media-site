@@ -3,7 +3,7 @@ import Post from "../post/post";
 
 export default function Feed() {
   return (
-    <div className="w-5/12 h-[calc(100vh-64px)] m-4">
+    <div className="w-5/12 overflow-y-scroll h-[calc(100vh-64px)] mx-4 mb-4">
       <Share />
       <Post />
       <Post />

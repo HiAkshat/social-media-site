@@ -4,7 +4,7 @@ import "./post.css";
 
 export default function Post() {
   return (
-    <div className='post rounded-xl'>
+    <div className='post rounded-xl mb-6'>
       <div className="flex items-center justify-between p-2">
         <div className='flex items-center'>
           <img className="w-12 rounded-full p-2 cursor-pointer" src={require("./1.jpg")} alt="" />
