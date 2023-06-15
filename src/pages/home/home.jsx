@@ -9,7 +9,7 @@ export default function Home(){
   return (
     <div className="home">
       <Topbar />
-      <div className="flex">
+      <div className="flex overflow-y-auto">
         <LeftBar />
         <Feed />
         <RightBar />

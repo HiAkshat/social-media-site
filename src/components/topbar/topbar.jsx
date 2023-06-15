@@ -39,7 +39,7 @@ export default function Topbar() {
           </div>
 
           <div className='w-10 h-10 rounded-full bg-black overflow-hidden ml-2'>
-            <img src={require("./1.jpg")} alt="" className='object-fill w-12'/>
+            <img src="./assets/1.jpg" alt="" className='object-fill w-12'/>
           </div>
         </div>
       </div>

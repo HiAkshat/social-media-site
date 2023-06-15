@@ -6,11 +6,13 @@ import BookmarksIcon from '@mui/icons-material/Bookmarks';
 import HelpIcon from '@mui/icons-material/Help';
 import WorkIcon from '@mui/icons-material/Work';
 
-import "./leftbar.css"
+import "./leftbar.css";
+import CloseFriends from '../closeFriends/closeFriends';
+import {Users} from "../../dummyData";
 
 export default function LeftBar() {
   return (
-    <div className="LeftBar h-[calc(100vh-64px)] overflow-y-scroll w-3/12 pt-2">
+    <div className="LeftBar sticky top-[0px] flex-[3] h-[calc(100vh)] overflow-y-auto pt-2">
       <div>
         <ul>
           <li>
@@ -46,50 +48,7 @@ export default function LeftBar() {
       <button className='ml-6 mt-2 px-4 py-2 bg-slate-100 rounded-xl'>Show More</button>
       <hr className='border-gray-300 my-6 m-6'/>
 
-      <div>
-        <div className='flex items-center pl-6 pb-4'>
-          <img src={require("./1.jpg")} alt="" className='w-12 rounded-full'/>
-          <span>Emma Watson</span>
-        </div>
-
-        <div className='flex items-center pl-6 pb-4'>
-          <img src={require("./1.jpg")} alt="" className='w-12 rounded-full'/>
-          <span>Emma Watson</span>
-        </div>
-
-        <div className='flex items-center pl-6 pb-4'>
-          <img src={require("./1.jpg")} alt="" className='w-12 rounded-full'/>
-          <span>Emma Watson</span>
-        </div>
-        
-        <div className='flex items-center pl-6 pb-4'>
-          <img src={require("./1.jpg")} alt="" className='w-12 rounded-full'/>
-          <span>Emma Watson</span>
-        </div>
-        
-        <div className='flex items-center pl-6 pb-4'>
-          <img src={require("./1.jpg")} alt="" className='w-12 rounded-full'/>
-          <span>Emma Watson</span>
-        </div>
-                
-        <div className='flex items-center pl-6 pb-4'>
-          <img src={require("./1.jpg")} alt="" className='w-12 rounded-full'/>
-          <span>Emma Watson</span>
-        </div>        
-        <div className='flex items-center pl-6 pb-4'>
-          <img src={require("./1.jpg")} alt="" className='w-12 rounded-full'/>
-          <span>Emma Watson</span>
-        </div>        
-        <div className='flex items-center pl-6 pb-4'>
-          <img src={require("./1.jpg")} alt="" className='w-12 rounded-full'/>
-          <span>Emma Watson</span>
-        </div>        
-        <div className='flex items-center pl-6 pb-4'>
-          <img src={require("./1.jpg")} alt="" className='w-12 rounded-full'/>
-          <span>Emma Watson</span>
-        </div>
-        
-      </div>
+      {Users.map(u => (<CloseFriends key={u.id} user={u}/>))}
     </div>
   )
 }

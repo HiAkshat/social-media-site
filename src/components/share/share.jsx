@@ -10,7 +10,7 @@ export default function Share() {
   return (
     <div className='share mb-4 p-1 rounded-xl'>
       <div className='flex items-center m-2'>
-        <img className='w-14 rounded-full p-2' src={require("./1.jpg")} alt="" />
+        <img className='w-14 rounded-full p-2' src="./assets/1.jpg" alt="" />
         <input className='w-full outline-none pl-2' rows="3" placeholder="What's on your mind?" />
       </div>
       <hr className='mx-4'/>
