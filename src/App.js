@@ -7,7 +7,7 @@ import Register from "./pages/register/register"
 function App() {
   return (
     <div className="App">
-      <Register />
+      <Profile />
     </div>
   );
 }
