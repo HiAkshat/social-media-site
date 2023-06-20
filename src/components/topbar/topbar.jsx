@@ -2,6 +2,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 import ChatIcon from '@mui/icons-material/Chat';
 import NotificationsIcon from '@mui/icons-material/Notifications';
+import {Link} from "react-router-dom";
 
 import "./topbar.css";
 
@@ -9,7 +10,7 @@ export default function Topbar() {
   return (
     <div className='flex sticky top-0 z-50 bg-blue-500 items-center p-2 w-full shadow-md'>
       <div className="topbarLeft w-3/12">
-        <span className='text-white text-2xl font-bold m-6 '>Aksocial</span>
+        <span className='text-white text-2xl font-bold m-6 '><Link to="/">Aksocial</Link></span>
       </div>
       <div className="topbarCenter w-5/12">
         <div className="searchbar bg-white rounded-full p-1 flex items-center">
@@ -19,8 +20,8 @@ export default function Topbar() {
       </div>
       <div className="topbarRight w-4/12 flex items-center justify-between text-white">
         <div className="text-base pl-4">
-          <span className='px-2'>Homepage</span>
-          <span className='px-2'>Timeline</span>
+          <span className='px-2'><Link to="/">Homepage</Link></span>
+          <span className='px-2'><Link to="/">Timeline</Link></span>
         </div>
         <div className="topbarIcons flex items-center px-2">
           <div className='p-1 flex items-center'>
@@ -39,7 +40,7 @@ export default function Topbar() {
           </div>
 
           <div className='w-10 h-10 rounded-full bg-black overflow-hidden ml-2'>
-            <img src="./assets/1.jpg" alt="" className='object-fill w-12'/>
+            <Link to="/profile"><img src="./assets/1.jpg" alt="" className='object-fill w-12'/></Link>
           </div>
         </div>
       </div>

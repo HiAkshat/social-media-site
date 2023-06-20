@@ -15,31 +15,31 @@ export default function LeftBar() {
     <div className="LeftBar sticky top-[0px] flex-[3] h-[calc(100vh)] overflow-y-auto pt-2">
       <div>
         <ul>
-          <li>
+          <li className='cursor-pointer hover:bg-slate-100'>
             <RssFeedIcon />
             <span>Feed</span>
           </li>
-          <li>
+          <li className='cursor-pointer hover:bg-slate-100'>
             <ChatIcon />
             <span>Chat</span>
           </li>
-          <li>
+          <li className='cursor-pointer hover:bg-slate-100'>
             <PlayCircleIcon />
             <span>Videos</span>
           </li>
-          <li>
+          <li className='cursor-pointer hover:bg-slate-100'>
             <GroupIcon />
             <span>Groups</span>
           </li>
-          <li>
+          <li className='cursor-pointer hover:bg-slate-100'>
             <BookmarksIcon />
             <span>Bookmarks</span>
           </li>
-          <li>
+          <li className='cursor-pointer hover:bg-slate-100'>
             <HelpIcon />
             <span>FAQ</span>
           </li>
-          <li>
+          <li className='cursor-pointer hover:bg-slate-100'>
             <WorkIcon />
             <span>Jobs</span>
           </li>
