@@ -24,17 +24,17 @@ export default function Topbar() {
           <span className='px-2'><Link to="/">Timeline</Link></span>
         </div>
         <div className="topbarIcons flex items-center px-2">
-          <div className='p-1 flex items-center'>
+          <div className='p-1 flex items-center cursor-pointer'>
             <PersonIcon className='caret-white'/>
             <span className='badge flex items-center'>1</span>
           </div>
 
-          <div className='p-1 flex items-center'>
+          <div className='p-1 flex items-center cursor-pointer'>
           <ChatIcon className='caret-white'/>
           <span className='badge flex items-center'>2</span>
           </div>
 
-          <div className='p-1 flex items-center'>
+          <div className='p-1 flex items-center cursor-pointer'>
           <NotificationsIcon className='caret-white'/>
           <span className='badge flex items-center'>1</span>
           </div>
